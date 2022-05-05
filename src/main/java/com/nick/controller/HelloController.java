@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String sayHello() {
-        return "Hello Jenkins, This Code from github, test2";
+        return "Hello Jenkins, This Code from github, test3";
     }
 }
